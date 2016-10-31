@@ -33,4 +33,9 @@
 
 */
 
-// YOUR CODE HERE
+function daysUntilDate (inputDate) {
+
+     var diff = Date.parse(inputDate)- Date.now();
+     console diff/8640000;
+
+}

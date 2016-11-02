@@ -37,6 +37,10 @@ function letterCount(string) {
   var stringAsArray = string.split("");
   stringAsArray.forEach(function(string) {
     // If the output object already contains the letter, increment the count by 1
+
+// When you use [] notation you are accessing the property in the
+//object with the name in the variable key
+
     if (output[string]) {
       output[string] += 1;
     // Otherwise (if it doesn't exist in the object yet), add the letter to the object with a count of 1

@@ -35,13 +35,13 @@ function letterCount(string) {
   var output={};
   // Split the string into an array of letters
   var stringAsArray = string.split("");
-  stringAsArray.forEach(function(el) {
+  stringAsArray.forEach(function(string) {
     // If the output object already contains the letter, increment the count by 1
-    if (output[el]) {
-      output[el] += 1;
+    if (output[string]) {
+      output[string] += 1;
     // Otherwise (if it doesn't exist in the object yet), add the letter to the object with a count of 1
     } else {
-      output[el] = 1;
+      output[string] = 1;
     }
   });
   // After you iterate through the entire word array, return the object

@@ -37,4 +37,9 @@
 
 */
 
-// YOUR CODE HERE
+function pingPong (table){
+
+
+
+};
+pinPong([{steps: 0}, null, null, null]);

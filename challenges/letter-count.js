@@ -34,6 +34,7 @@ function letterCount(string) {
   // Create a new object to store the letters and counts
   var output={};
   // Split the string into an array of letters
+  //The split() method splits a String object into an array of strings by separating the string into substrings.
   var stringAsArray = string.split("");
   stringAsArray.forEach(function(string) {
     // If the output object already contains the letter, increment the count by 1

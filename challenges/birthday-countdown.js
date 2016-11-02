@@ -35,7 +35,15 @@
 
 function daysUntilDate (inputDate) {
 
-     var diff = Date.parse(inputDate)- Date.now();
-     console diff/8640000;
+     var date = Date.parse(inputDate);
+     //Date.now gives today's date but in miliseconds
+     var todayDate= Date.now();
+     var diff = date - todayDate;
+     return (diff/86400000);
 
 }
+
+function formatDate()
+
+
+daysUntilDate();

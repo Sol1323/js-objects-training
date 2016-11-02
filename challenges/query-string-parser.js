@@ -44,4 +44,9 @@
 
 */
 
-// YOUR CODE HERE
+function parseQueryString(string) {
+    var pairs = string.split("&");
+    var output = {};
+    
+
+}
